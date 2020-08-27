@@ -40,7 +40,7 @@ def load_hubble_data() -> pd.DataFrame:
         pandas DataFrame with Hubble's data
     """
     return pd.read_csv(
-        r"C:\Users\billy\OneDrive\Python\PycharmProjects\hubble hacker regression\hubble_data.csv",
+        r"hubble_data.csv",
         header=9
     )
 
