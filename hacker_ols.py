@@ -39,10 +39,7 @@ def load_hubble_data() -> pd.DataFrame:
     Returns:
         pandas DataFrame with Hubble's data
     """
-    return pd.read_csv(
-        r"hubble_data.csv",
-        header=9
-    )
+    return pd.read_csv("hubble_data.csv", header=9)
 
 
 def normalize_deviations(x: pd.Series, y: pd.Series) -> tuple:
